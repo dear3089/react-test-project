@@ -3,6 +3,21 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// import HelloComponent from './Components/Hellocomponent';
+
+
+//การสร้าง component
+// function HelloComponent() {
+//   return <h1>สวัสดี Component </h1>
+// }
+
+//การสร้าง Class component
+// class HelloComponent extends React.Component {
+//   render() {
+//     return <h1>สวัสดี Componen นะ</h1>
+//   }
+// }
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
